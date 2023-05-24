@@ -79,7 +79,7 @@ void st_pall(stack_t **head, unsigned int number);
 void st_pint(stack_t **head, unsigned int number);
 int execute(char *content, stack_t **head, unsigned int counter, FILE *file);
 void free_stack(stack_t *head);
-void f_pop(stack_t **head, unsigned int counter);
+void st_pop(stack_t **head, unsigned int counter);
 void f_swap(stack_t **head, unsigned int counter);
 void f_add(stack_t **head, unsigned int counter);
 
